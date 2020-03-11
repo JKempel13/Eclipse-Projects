@@ -44,7 +44,7 @@ public class Person {
 	
 	@Override
 	public String toString() {
-		return "Person [firstName=" + firstName + ", lastName=" + lastName + ", hourlyRate=" + hourlyRate + "]";
+		return "Hello, my name is " + firstName + " " + lastName + " and I get paid $" + hourlyRate + ".";
 	}
 	
 	public double getPayment(int hours) {

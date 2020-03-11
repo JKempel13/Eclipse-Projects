@@ -11,6 +11,7 @@ public class Payment {
 		System.out.println(person.toString());
 		
 		System.out.println(person.getPayment(40));
+		
 	}
 
 }
